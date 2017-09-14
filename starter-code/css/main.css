@@ -8,3 +8,60 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  background: linear-gradient(#587E9E, #396184);
+  height: 300px;
+  position: relative;
+}
+
+main {
+  position: absolute;
+  top: 33%;
+  left: 20%;
+}
+
+.devices {
+  display: inline-block;
+  float: left;
+  margin-right: 50px;
+}
+
+.login {
+  width: 800px;
+}
+
+.brand, .home {
+  display: inline-block;
+}
+
+.login {
+  height: 84px;
+  ;
+}
+
+.home {
+  border: 1px solid #06365f;
+  padding: 5px;
+  background: linear-gradient(#587E9E, #396184);
+  border-radius: 3px;
+  color: #CED9E3;
+  font-weight: bold;
+  float: right;
+  margin-top: 12px;
+}
+
+.content {
+  width: 48%;
+  float: right;
+  background: #fff;
+  border-radius: 3px;
+  padding: 19px;
+}
+
+.content h2{
+  color: #06365f;
+
+      width: 64%;
+      margin: 0;
+}
