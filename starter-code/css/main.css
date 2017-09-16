@@ -52,16 +52,26 @@ main {
 }
 
 .content {
+  background: url(../images/frame.png) no-repeat;
   width: 48%;
   float: right;
-  background: #fff;
-  border-radius: 3px;
+  /*background: #fff;
+  border-radius: 3px;*/
   padding: 19px;
 }
 
+.content p{
+    margin: 10px 0;
+}
 .content h2{
   color: #06365f;
 
       width: 64%;
       margin: 0;
+}
+
+.content a{
+    margin-right: 10px;
+    margin-top: 30px;
+    display: inline-block;
 }
