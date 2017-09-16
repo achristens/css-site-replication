@@ -10,10 +10,9 @@ body {
   background: #fff url(../images/bgtile.png) repeat-x;
 }
 
-
 main {
   width: 900px;
-  margin: 144px auto;
+  margin: 110px auto;
 }
 
 .brand {
@@ -35,6 +34,7 @@ main {
 
 .login img {
   display: block;
+  padding-bottom: 18px;
 }
 
 .content {
@@ -58,4 +58,27 @@ main {
   margin-right: 10px;
   margin-top: 30px;
   display: inline-block;
+}
+
+.footer-nav{
+  clear: both;
+  text-align: center;
+}
+.footer-nav li{
+  list-style: none;
+  display: inline-block;
+
+    padding: 10px 10px 0px 0px;
+}
+
+.footer-nav a{
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #06365f;
+}
+
+.footer-nav a:hover{
+  text-decoration: underline;
 }
