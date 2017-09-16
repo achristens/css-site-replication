@@ -7,37 +7,21 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: #fff url(../images/bgtile.png) repeat-x;
 }
 
-header {
-  background: linear-gradient(#587E9E, #396184);
-  height: 300px;
-  position: relative;
-}
 
 main {
-  position: absolute;
-  top: 33%;
-  left: 20%;
+  width: 900px;
+  margin: 144px auto;
 }
 
-.devices {
-  display: inline-block;
-  float: left;
-  margin-right: 50px;
+.brand {
+  float: right;
 }
 
 .login {
-  width: 800px;
-}
-
-.brand, .home {
-  display: inline-block;
-}
-
-.login {
-  height: 84px;
-  ;
+  float: right;
 }
 
 .home {
@@ -47,31 +31,31 @@ main {
   border-radius: 3px;
   color: #CED9E3;
   font-weight: bold;
-  float: right;
-  margin-top: 12px;
+}
+
+.login img {
+  display: block;
 }
 
 .content {
   background: url(../images/frame.png) no-repeat;
-  width: 48%;
+  width: 430px;
   float: right;
-  /*background: #fff;
-  border-radius: 3px;*/
-  padding: 19px;
+  padding: 40px;
 }
 
-.content p{
-    margin: 10px 0;
+.content p {
+  margin: 10px 0;
 }
-.content h2{
+
+.content h2 {
   color: #06365f;
-
-      width: 64%;
-      margin: 0;
+  width: 57%;
+  margin: 0;
 }
 
-.content a{
-    margin-right: 10px;
-    margin-top: 30px;
-    display: inline-block;
+.content a {
+  margin-right: 10px;
+  margin-top: 30px;
+  display: inline-block;
 }
